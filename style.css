@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #eef2f3, #8e9eab);
+    color: #333;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    background: #007BFF;
+    color: white;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  #personal-info {
+    margin-bottom: 20px;
+  }
+  
+  .about-me {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .personal-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #007BFF;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-links li a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  .social-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  .hobbies-list, .tasks-list {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table th {
+    background: #007BFF;
+    color: white;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form input, form textarea, form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  form button:hover {
+    background: #0056b3;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background: #007BFF;
+    color: white;
+    border-radius: 10px;
+  }
+  
